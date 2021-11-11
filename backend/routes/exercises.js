@@ -8,6 +8,7 @@ router.route("/").get((req, res) => {
 });
 
 router.route("/add").post((req, res) => {
+  console.log("running");
   const username = req.body.username;
   const description = req.body.description;
   const duration = Number(req.body.duration);
