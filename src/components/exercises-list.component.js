@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-export default class ExercisesList extends Component {
-  render() {
-    return (
-      <div>
-        <p>You are on the exercises list </p>
-      </div>
-    );
-  }
-}
+
+const exercisesList = () => {
+  return (
+    <div>
+      <p>You are on the exercises list </p>
+    </div>
+  );
+};
+export default exercisesList;
